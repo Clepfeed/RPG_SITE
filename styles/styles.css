@@ -1,0 +1,90 @@
+body
+{
+    margin: 0;
+    color: black;
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+        url("/images/main_img.jpeg");
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: top;
+    
+}
+
+h1, h2, h3, p
+{
+    margin: 0;
+    font-family: "Source Code Pro";
+    font-weight: 600;
+}
+
+ul
+{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10.5vh;
+    margin: 0;
+    padding: 0 19.8vw;
+}
+
+li
+{
+    list-style-type: none;
+}
+li div
+{
+    margin: 0 15vw;
+}
+
+
+a
+{
+    color: #33334D;
+    text-decoration: none;
+    /* font-size: calc(1rem + 1vw); */
+}
+
+
+
+main
+{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    color: white;
+}
+
+main h1
+{
+    color: white;
+    font-size: calc(1rem + 3vw);
+    margin-top: 8.5vh;
+}
+main div
+{
+    height: 41vh;
+}
+main div img 
+{
+    width: 2vw;
+    fill: white;
+}
+
+p
+{
+    color: white;
+    font-size: calc(0.4rem + 0.4vw);
+    font-weight: 400;
+    letter-spacing: 0.3rem;
+}
+
+.info
+{
+    background-color: white;
+    height: 60vh;
+}
