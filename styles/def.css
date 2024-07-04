@@ -12,7 +12,7 @@ body
     
 }
 
-h1, h2, h3, p
+h1, h2, h3, p, a 
 {
     margin: 0;
     font-family: "Source Code Pro";
@@ -67,7 +67,12 @@ main h1
 }
 main div
 {
-    height: 41vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding-bottom: 4vh;
+    height: 37vh;
 }
 main div img 
 {
@@ -86,5 +91,44 @@ p
 .info
 {
     background-color: white;
-    height: 60vh;
+    /* height: 60vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6.4vh 0 0 0;
+}
+.info .description
+{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.info .description h2
+{
+    font-size: calc(2rem + 0.6vh);
+    font-weight: 300;
+    line-height: 1.4em;
+    text-align: center;
+    margin: 5vh 0;
+}
+.info .video
+{
+    height: 31vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info .video h3
+{
+    font-size: calc(1.5rem + 0.4vh);
+    font-weight: 300;
+}
+.HLine
+{
+    width: 7vw;
+    height: 1px;
+    background-color: black;
 }
