@@ -44,7 +44,6 @@ a
 {
     color: #33334D;
     text-decoration: none;
-    /* font-size: calc(1rem + 1vw); */
 }
 
 
@@ -80,7 +79,7 @@ main div img
     fill: white;
 }
 
-p
+main p
 {
     color: white;
     font-size: calc(0.4rem + 0.4vw);
@@ -88,47 +87,26 @@ p
     letter-spacing: 0.3rem;
 }
 
-.info
+
+
+footer
 {
     background-color: white;
-    /* height: 60vh; */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    padding: 6.4vh 0 0 0;
-}
-.info .description
-{
-    width: 50vw;
+    height: 10vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-}
-.info .description h2
-{
-    font-size: calc(2rem + 0.6vh);
-    font-weight: 300;
-    line-height: 1.4em;
-    text-align: center;
-    margin: 5vh 0;
-}
-.info .video
-{
-    height: 31vh;
-    display: flex;
     justify-content: center;
-    align-items: center;
 }
-.info .video h3
+footer p, footer a
 {
-    font-size: calc(1.5rem + 0.4vh);
-    font-weight: 300;
+    color: black;
+    font-size: calc(0.6rem + 0.4vh);
+    font-weight: 400;
 }
-.HLine
+footer a
 {
-    width: 7vw;
-    height: 1px;
-    background-color: black;
+    font-size: calc(0.6rem + 0.2vh);
+    color: #ff8562;
+    margin-top: 0.5vh;
 }
